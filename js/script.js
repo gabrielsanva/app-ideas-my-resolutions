@@ -10,12 +10,17 @@ const challenges = [
         challenge: "1-Beginner/Border-Radius-Previewer.md"
     },
     {
+        name: "calculator",
+        description: "A Simple Calculator",
+        challenge: "1-Beginner/Calculator-App.md"
+    },
+    {
         name: "real2centavos",
         description: "Convert dollars to cents",
         challenge: "1-Beginner/Word-Frequency-App.md"
     }
 ]
-
+calculator
 const table = document.getElementById("table");
 const createTable = () => {
     let contentMD = "";
