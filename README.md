@@ -6,7 +6,7 @@ Hello guys. This is a list of exercises that I am proposing to solve to develop 
 
 ## Challenges completed
 
-### Beginner
+### Click [here](https://app-ideas-my-resolutions.vercel.app/) to see this challenges page
 
 Project|Description|Original Challenge|Online
 :---:|:---:|:---:|:---:

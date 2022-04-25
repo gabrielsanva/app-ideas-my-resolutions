@@ -25,7 +25,7 @@ const createTable = () => {
 
         contentMD += "[" + challenges[count].name + "](" + challenges[count].name + ")|" + challenges[count].description + "|" +
             "[Original Challenge](https://github.com/gabrielsanva/app-ideas/blob/master/Projects/" + challenges[count].challenge + ")|" +
-            "[See Working]()\n";
+            "[See Working](https://app-ideas-my-resolutions.vercel.app/" + challenges[count].name + ")\n";
     }
     table.innerHTML = content;
     console.log(contentMD);
