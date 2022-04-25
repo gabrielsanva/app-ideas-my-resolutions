@@ -20,7 +20,7 @@ const challenges = [
         challenge: "1-Beginner/Word-Frequency-App.md"
     }
 ]
-calculator
+
 const table = document.getElementById("table");
 const createTable = () => {
     let contentMD = "";
