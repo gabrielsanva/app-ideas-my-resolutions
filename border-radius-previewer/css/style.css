@@ -1,0 +1,10 @@
+#shape {
+    width: 100px;
+    height: 100px;
+    background: #0275d8;
+    padding: 20px;
+}
+
+#row-shape {
+    height: 200px;
+}

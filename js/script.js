@@ -5,10 +5,15 @@ const challenges = [
         challenge: "1-Beginner/Bin2Dec-App.md"
     },
     {
+        name: "border-radius-previewer",
+        description: "Preview how CSS3 border-radius values affect an element",
+        challenge: "1-Beginner/Border-Radius-Previewer.md"
+    },
+    {
         name: "real2centavos",
         description: "Convert dollars to cents",
         challenge: "1-Beginner/Word-Frequency-App.md"
-    },
+    }
 ]
 
 const table = document.getElementById("table");
