@@ -15,6 +15,11 @@ const challenges = [
         challenge: "1-Beginner/Calculator-App.md"
     },
     {
+        name: "christmas-lights",
+        description: "Simulate a string of Christmas lights	",
+        challenge: "1-Beginner/Christmas-Lights-App.md"
+    },
+    {
         name: "real2centavos",
         description: "Convert dollars to cents",
         challenge: "1-Beginner/Word-Frequency-App.md"

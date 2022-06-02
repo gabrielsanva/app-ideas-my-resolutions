@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Christmas Lights</title>
+</head>
+
+<body>
+    <header id="container" class="container">
+    </header>
+    <div class="container">
+        <p class="title">Christmas Lights</p>
+    </div>
+    <div class="container">
+        <input id="on" type="radio" name="on-off" value="on" checked oninput="turn(this.value)">
+        <label for="on">On</label>
+        <input id="off" type="radio" name="on-off" value="off" oninput="turn(this.value)">
+        <label for="off">Off</label>
+        <input id="velocity" type="range" max="3" min="0" step=".01" value="0.5" oninput="velocity(this.value)">
+        <label for="velocity">Velocity</label>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

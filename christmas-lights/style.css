@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+.ball {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 0.5s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.off {
+    animation-name: none;
+    animation-delay: none;
+}
+
+.red {
+    background-color: red;
+    animation-name: red;
+    animation-delay: 0.5s;
+}
+
+@keyframes red {
+    from {
+        box-shadow: 0px 0px 50px 25px red;
+    }
+
+    to {
+        box-shadow: 0px 0px 50px 0px red;
+    }
+}
+
+.yellow {
+    background-color: yellow;
+    box-shadow: 0px 0px 50px yellow;
+    animation-name: yellow;
+}
+
+@keyframes yellow {
+    from {
+        box-shadow: 0px 0px 50px 25px yellow;
+    }
+
+    to {
+        box-shadow: 0px 0px 50px 0px yellow;
+    }
+}
+
+
+.green {
+    background-color: green;
+    animation-name: green;
+}
+
+@keyframes green {
+    from {
+        box-shadow: 0px 0px 50px 25px green;
+    }
+
+    to {
+        box-shadow: 0px 0px 50px 0px green;
+
+    }
+}
+
+.blue {
+    background-color: blue;
+    animation-name: blue;
+    animation-delay: 0.5s;
+
+}
+
+@keyframes blue {
+    from {
+        box-shadow: 0px 0px 50px 25px blue;
+    }
+
+    to {
+        box-shadow: 0px 0px 50px 0px blue;
+
+    }
+}
+
+.title {
+    color: rgb(255, 242, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    text-shadow: 0px 0px 72px rgb(255, 242, 128);
+}
+
+label {
+    color: rgb(255, 242, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
