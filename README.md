@@ -15,3 +15,4 @@ Project|Description|Original Challenge
 [calculator](calculator)|A Calculator|[Original Challenge](https://github.com/gabrielsanva/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md)
 [christmas-lights](christmas-lights)|Simulate a string of Christmas lights|[Original Challenge](https://github.com/gabrielsanva/app-ideas/blob/master/Projects/1-Beginner/Christmas-Lights-App.md)
 [real2centavos](real2centavos)|Convert dollars to cents|[Original Challenge](https://github.com/gabrielsanva/app-ideas/blob/master/Projects/1-Beginner/Word-Frequency-App.md)
+[cause-effect-app](cause-effect-app)|Click list item to display item details|[Original Challenge](https://github.com/gabrielsanva/app-ideas/blob/master/Projects/1-Beginner/Cause-Effect-App.md)

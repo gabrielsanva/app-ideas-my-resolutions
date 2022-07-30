@@ -1,0 +1,31 @@
+body {
+  background-color: #3671b1;
+  color: white;
+}
+.card {
+  margin: 5px auto;
+  max-width: 600px;
+}
+
+.title {
+  margin: 2px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #143c68;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.title:hover {
+  background-color: rgb(44, 123, 241);
+}
+
+.selected {
+  background-color: #0a1f36;
+}
+
+.props {
+  cursor: default;
+  padding: 5px;
+}
